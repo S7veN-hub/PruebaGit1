@@ -116,6 +116,12 @@ public class Rectangulo {
 			System.out.println("");
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangulo [getAncho()=" + getAncho() + ", getAlto()=" + getAlto() + ", getNombre()=" + getNombre()
+				+ "]";
+	}
 }
 
 
